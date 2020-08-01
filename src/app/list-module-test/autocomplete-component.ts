@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, ViewChild } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
 import { NguiAutocompleteComponent } from '@ngui/common';
-import { of } from 'rxjs/internal/observable/of';
+import { of } from 'rxjs';
 import { delay } from 'rxjs/operators';
 
 @Component({

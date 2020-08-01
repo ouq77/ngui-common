@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, ElementRef, ViewChild } from '@angular/core';
 
 import { NguiVirtualListComponent } from '@ngui/common';
-import { of } from 'rxjs/internal/observable/of';
+import { of } from 'rxjs';
 import { delay } from 'rxjs/operators';
 
 @Component({
